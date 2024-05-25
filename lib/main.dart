@@ -75,10 +75,15 @@ class _MyHomePageState extends State<MyHomePage> {
                 decoration: InputDecoration(
                   labelText: "Saisir votre mot de passe",
                   labelStyle: TextStyle(fontSize: 15),
+                  icon: Icon(Icons.password_rounded),
                 ),
                 keyboardType: TextInputType.visiblePassword,
               ),
             ),
+            SizedBox(
+              height: 15,
+            ),
+            ElevatedButton(child: Text("OK"), onPressed: () => {}),
             SizedBox(
               height: 15,
             ),
